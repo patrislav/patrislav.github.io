@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "author": "Patryk Kalinowski patryk@kalinowski.dev",
   "scripts": {
-    "build": "gatsby build",
+    "clean": "rimraf build",
+    "build": "npm run clean && gatsby build",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "gatsby develop",
     "serve": "gatsby serve",
@@ -36,6 +37,7 @@
     "@types/react-dom": "^16.8.4",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
     "tslint": "^5.17.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-loader": "^3.5.4",
