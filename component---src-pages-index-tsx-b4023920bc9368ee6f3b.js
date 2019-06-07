@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{174:function(e,t,n){"use strict";n.r(t);var a=n(0),i=n.n(a),o=n(97),s=Object(o.a)({root:{width:"100vw",height:"100vh",display:"flex",alignItems:"center",justifyContent:"center"},h1:{fontSize:48}});t.default=function(){var e=s();return i.a.createElement("div",{className:e.root},i.a.createElement("h1",{className:e.h1},"kalinowski.dev"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-b4023920bc9368ee6f3b.js.map
