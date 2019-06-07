@@ -4,9 +4,17 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import React from 'react'
-import Root from './src/Root'
+const React = require('react')
+const Root = require('./src/Root').default
+const Baseline = require('./src/Baseline').default
 
-export function wrapRootElement({ element }) {
-  return <Root>{element}</Root>
-}
+exports.wrapRootElement = ({ element }) => (
+  <Root>{element}</Root>
+)
+
+exports.wrapPageElement = ({ element }) => (
+  <React.Fragment>
+    <Baseline />
+    {element}
+  </React.Fragment>
+)
