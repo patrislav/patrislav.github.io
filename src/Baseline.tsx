@@ -15,7 +15,7 @@ const useStyles = makeStyles<Theme>(theme => ({
     },
     body: {
       margin: 0,
-      fontFamily: 'sans-serif',
+      fontFamily: 'Lato, sans-serif',
       backgroundColor: theme.palette.primary.main,
       color: theme.palette.primary.contrastText,
     },

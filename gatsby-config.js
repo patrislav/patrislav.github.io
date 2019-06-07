@@ -29,6 +29,14 @@ module.exports = {
       resolve: 'gatsby-plugin-material-ui',
       options: {},
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lato:300,400', 'PT Serif'],
+        },
+      },
+    },
     'gatsby-plugin-typescript',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
