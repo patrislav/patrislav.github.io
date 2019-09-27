@@ -46,8 +46,8 @@ function ResumePage() {
         <div className={classes.contentLeft}>
           <ResumeSection title="Experience">
             <ResumeExperienceItem
-              title="Lasting Dynamics S.r.l."
-              started={new Date(2018, 8)}
+              title="Lasting Dynamics SRL"
+              started={new Date(2017, 8)}
             >
               <p>
                 <strong>React</strong> and <strong>Node.js</strong> project
@@ -59,8 +59,8 @@ function ResumePage() {
             </ResumeExperienceItem>
             <ResumeExperienceItem
               title="Lumesse Ltd."
-              started={new Date(2017, 10)}
-              ended={new Date(2018, 5)}
+              started={new Date(2016, 10)}
+              ended={new Date(2017, 5)}
             >
               <p>
                 <strong>React</strong> consultation and development of a complex
