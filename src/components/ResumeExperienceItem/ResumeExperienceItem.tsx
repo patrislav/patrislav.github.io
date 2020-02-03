@@ -21,6 +21,7 @@ const useStyles = makeStyles({
     lineHeight: 1.25,
   },
   title: {
+    fontSize: '1.1rem',
     margin: 0,
   },
   duration: {
