@@ -49,30 +49,28 @@ function ResumePage() {
               title="Lasting Dynamics SRL"
               started={new Date(2017, 8)}
             >
-              <p>
-                Various responsibilities including but not limited to:
-                <ul>
-                  <li>
-                    UI development using <strong>React</strong> written in{' '}
-                    <strong>TypeScript</strong>
-                  </li>
-                  <li>
-                    Development of back-end microservices using{' '}
-                    <strong>Go</strong> and <strong>Node.js/TypeScript</strong>
-                  </li>
-                  <li>
-                    Cloud infrastructure management and handling of production{' '}
-                    <strong>Kubernetes</strong> clusters
-                  </li>
-                  <li>
-                    Management of CI/CD pipelines using tools such as Jenkins
-                  </li>
-                  <li>
-                    Leading a team of both front-end and back-end developers
-                    working on a complex project
-                  </li>
-                </ul>
-              </p>
+              <p>Various responsibilities including but not limited to:</p>
+              <ul>
+                <li>
+                  UI development using <strong>React</strong> written in{' '}
+                  <strong>TypeScript</strong>
+                </li>
+                <li>
+                  Development of back-end microservices using{' '}
+                  <strong>Go</strong> and <strong>Node.js/TypeScript</strong>
+                </li>
+                <li>
+                  Cloud infrastructure management and handling of production{' '}
+                  <strong>Kubernetes</strong> clusters
+                </li>
+                <li>
+                  Management of CI/CD pipelines using tools such as Jenkins
+                </li>
+                <li>
+                  Leading a team of both front-end and back-end developers
+                  working on a complex project
+                </li>
+              </ul>
             </ResumeExperienceItem>
             <ResumeExperienceItem
               title="Lumesse Ltd."
