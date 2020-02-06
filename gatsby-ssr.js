@@ -18,3 +18,9 @@ exports.wrapPageElement = ({ element }) => (
     {element}
   </React.Fragment>
 )
+
+exports.onRenderBody = ({ setBodyAttributes }) => {
+  setBodyAttributes({
+    className: 'light',
+  })
+}

@@ -1,10 +1,10 @@
 export const theme = {
   palette: {
     primary: {
-      main: '#37474f',
+      main: 'rgb(var(--main-color))',
       light: '#62727b',
       dark: '#102027',
-      contrastText: '#ffffff',
+      contrastText: 'rgb(var(--text-color))',
     },
   },
 }
