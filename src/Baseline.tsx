@@ -15,7 +15,7 @@ const useStyles = makeStyles<Theme>(theme => ({
     },
     body: {
       margin: 0,
-      fontFamily: 'Lato, sans-serif',
+      fontFamily: '"Fira Code", monospace',
       backgroundColor: theme.palette.primary.main,
       color: theme.palette.primary.contrastText,
     },

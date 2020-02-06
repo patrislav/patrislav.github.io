@@ -33,7 +33,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Lato:300,400', 'PT Serif'],
+          families: ['Fira Code:400,700'],
         },
       },
     },
