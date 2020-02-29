@@ -24,7 +24,7 @@ const useStyles = makeStyles<Theme>(theme => ({
       color: theme.palette.primary.contrastText,
 
       '&.light': {
-        '--main-color': '255, 255, 234',
+        '--main-color': '255, 255, 245',
         '--text-color': '0, 0, 0',
       },
 

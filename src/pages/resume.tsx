@@ -49,7 +49,6 @@ function ResumePage() {
               title="Lasting Dynamics SRL"
               started={new Date(2017, 8)}
             >
-              <p>Various responsibilities including but not limited to:</p>
               <ul>
                 <li>
                   UI development using <strong>React</strong> written in{' '}
