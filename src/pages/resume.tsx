@@ -39,15 +39,22 @@ function ResumePage() {
       <ResumeHeader
         title="Patryk Kalinowski"
         subtitle="Software developer"
-        location="Saint Petersburg, Russia"
+        location="Poznań, Poland"
         email="patryk@kalinowski.dev"
       />
       <div className={classes.content}>
         <div className={classes.contentLeft}>
           <ResumeSection title="Experience">
             <ResumeExperienceItem
+              title="Cycloid - DevOps Framework"
+              started={new Date(2020, 4)}
+            >
+
+            </ResumeExperienceItem>
+            <ResumeExperienceItem
               title="Lasting Dynamics SRL"
               started={new Date(2017, 8)}
+              ended={new Date(2020, 4)}
             >
               <ul>
                 <li>
@@ -82,14 +89,14 @@ function ResumePage() {
               </p>
             </ResumeExperienceItem>
           </ResumeSection>
-          <ResumeSection title="Skills">
+          {/* <ResumeSection title="Skills">
             <div className={classes.logoList}>
               <TechLogo tech="Go" />
               <TechLogo tech="Kubernetes" />
               <TechLogo tech="React" />
               <TechLogo tech="TypeScript" />
             </div>
-          </ResumeSection>
+          </ResumeSection> */}
         </div>
         <div className={classes.contentRight} />
       </div>
