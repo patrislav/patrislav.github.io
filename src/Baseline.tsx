@@ -13,13 +13,8 @@ const useStyles = makeStyles<Theme>(theme => ({
     '*, *::before, *::after': {
       boxSizing: 'inherit',
     },
-    // prevent Flash Of Unstyled Text
-    '.wf-loading *': {
-      color: 'rgba(0,0,0,0) !important',
-    },
     body: {
       margin: 0,
-      fontFamily: '"Fira Code", monospace',
       backgroundColor: theme.palette.primary.main,
       color: theme.palette.primary.contrastText,
 
@@ -32,6 +27,13 @@ const useStyles = makeStyles<Theme>(theme => ({
         '--main-color': '55, 71, 79',
         '--text-color': '255, 255, 255',
       },
+    },
+    // Prevent Flash of Unstyled Text
+    'html:not(.wf-firacode-n4-active.wf-firacode-n7-active) body': {
+      fontFamily: 'courier, monospace',
+    },
+    'html.wf-firacode-n4-active.wf-firacode-n7-active body': {
+      fontFamily: '"Fira Code", courier, monospace',
     },
   },
 }))

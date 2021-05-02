@@ -37,7 +37,7 @@ const useStyles = makeStyles({
     margin: 0,
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
     lineHeight: 1.2,
     marginTop: '0.75rem',
   },
