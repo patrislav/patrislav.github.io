@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{226:function(e){e.exports={pages:[{componentChunkName:"component---src-pages-index-tsx",jsonName:"index",path:"/"},{componentChunkName:"component---src-pages-resume-tsx",jsonName:"resume-e4f",path:"/resume/"}],dataPaths:{"dev-404-page-5f9":"22/path---dev-404-page-5-f-9-fab-4f9bHyzlOR7SKlvrq9fBDLN0YY",index:"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","resume-e4f":"953/path---resume-e-4-f-cdf-0SUcWyAf8ecbYDsMhQkEfPzV8"}}}}]);
+//# sourceMappingURL=pages-manifest-283060bf8a321ea16b44.js.map
